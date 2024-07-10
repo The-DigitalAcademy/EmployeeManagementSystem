@@ -22,7 +22,7 @@ import java.util.List;
 
         @GetMapping("/employees/{employeeId}")
         public Employee getSingleEmployee(@PathVariable int employeeId){
-            return employeeService.getSingleEmployee(employeeId);
+            return employeeService.getClass(employeeId);
         }
 
         @PostMapping("/employees")
