@@ -7,11 +7,19 @@ import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Data
-//@AllArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 @Component
 public class Employee {
-
-
+        private int id;
+        private String name;
+        private String surname;
+        private String department;
+        private double salary;
+        private boolean isPermanent;
 
 }
+
+
+
+
